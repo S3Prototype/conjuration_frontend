@@ -5,14 +5,18 @@
     min-width: 100vw;
     max-width: 100vw;
 
+
+    color: whitesmoke;
+    font-family: 'Gidole', Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg{
+
     background: url('https://res.cloudinary.com/diujqlncs/image/upload/v1615940235/conjuration_frontent/landing_section_bg_t9xh4k.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
-    color: whitesmoke;
-    font-family: 'Gidole', Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;    
 }
 
 .info_container{
@@ -28,18 +32,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    row-gap: 30px;
 }
 
-.info{
-    align-self: center;
-    color: whitesmoke;
+.headline{
+    text-transform: capitalize;
+    font-size: var(--headline-text-size);
+}
 
-    min-width: 100%;
-    max-height: 80%;
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
 }
 
 .hook{
-    text-transform: capitalize;
     font-size: var(--base-text-size);
+    font-weight: bold;
+    text-align: center;
+}
+
+.pitch{    
+    font-size: var(--base-text-size);
+    max-width: 90%;
+}
+
+.contact_buttons{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact_button{
+    text-transform: uppercase;
+    width: 40%;
+    height: 50px;
+    margin: 2px;
+    letter-spacing: 1px;
+    background-color: rgb(90, 90, 236);
+    font-size: var(--button-text-size);
+    color: whitesmoke;
 }

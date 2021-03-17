@@ -16,6 +16,8 @@
 }
 
 :root{
-  --base-text-size: 28px;
+  --headline-text-size: 30px;
+  --base-text-size: 22px;
+  --button-text-size: 18px
 }
 

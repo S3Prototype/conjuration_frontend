@@ -1,1 +1,1 @@
-Conjuration Web Services is a high-end Website Design and Web Presence agency. We specialize in websites for small businesses, especially landing pages, full websites, and ecommerce stores. Jump on a 10-minute call now for a quote! 973-914-7775. Or email shaquil@conjuration.net.
+Conjuration Web Services is a high-end Website Design and Web Presence agency. We specialize in websites for small businesses, especially landing pages, full websites, and ecommerce stores. Jump on a 10-minute call now for a quote! 973-914-7775. Or email shaquil@conjuration.net. 
