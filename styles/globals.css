@@ -13,6 +13,7 @@
   box-sizing: border-box;
   margin: 0;
   max-width: 100%;
+  font-family: 'Gidole', Georgia, 'Times New Roman', Times, serif; 
 }
 
 :root{
@@ -21,3 +22,22 @@
   --button-text-size: 18px
 }
 
+button{
+  border-width: 1px;
+}
+
+/* Background types for sections */
+/* Make section bg colors alternate between two.
+   And individual sections can set their own BG's if they want.*/
+
+div.section_container:nth-child(even){
+  color: whitesmoke;
+  background: rgb(3,1,31);
+  background: linear-gradient(90deg, rgb(2, 45, 53) 15%, rgb(8, 118, 138) 100%);
+}
+
+div.section_container:nth-child(odd){
+  color: black;
+  background: rgb(74,74,77);
+  background: linear-gradient(90deg, rgba(74,74,77,0.4) 0%, rgba(235,235,235,0.8501070663811563) 50%);
+}

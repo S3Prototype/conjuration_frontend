@@ -8,7 +8,6 @@ const landingClasses = [
 
 function LandingSection() {
     return (
-        <>
             <section className={cx(landingStyles.full_section, landingStyles.bg)}>
                 <div className={landingStyles.info_container}>
                     <span className={landingStyles.headline}>
@@ -26,7 +25,6 @@ function LandingSection() {
                     </div>
                 </div>
             </section>
-        </>
     )
 }
 

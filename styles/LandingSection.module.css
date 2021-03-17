@@ -7,12 +7,12 @@
 
 
     color: whitesmoke;
-    font-family: 'Gidole', Georgia, 'Times New Roman', Times, serif;
+
+    display: flex;
 }
 
 .bg{
-
-    background: url('https://res.cloudinary.com/diujqlncs/image/upload/v1615940235/conjuration_frontent/landing_section_bg_t9xh4k.jpg') no-repeat center center fixed; 
+    background: url('https://res.cloudinary.com/diujqlncs/image/upload/v1615940235/conjuration_frontent/landing_section_bg_t9xh4k.jpg') no-repeat center center ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,8 +27,6 @@
     background: linear-gradient(0deg, rgba(3,1,31,0.5) 0%, rgba(40, 40, 49, 0.83) 70%, rgba(0,212,255,0) 100%);
 
     z-index: 2;
-    position: fixed;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +52,7 @@
     text-align: center;
 }
 
-.pitch{    
+.pitch{
     font-size: var(--base-text-size);
     max-width: 90%;
 }
