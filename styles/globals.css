@@ -41,3 +41,7 @@ div.section_container:nth-child(odd){
   background: rgb(74,74,77);
   background: linear-gradient(90deg, rgba(74,74,77,0.4) 0%, rgba(235,235,235,0.8501070663811563) 50%);
 }
+
+/* main{
+  min-width: 100%;
+} */
