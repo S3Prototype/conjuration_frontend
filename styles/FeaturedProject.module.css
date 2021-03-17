@@ -4,7 +4,6 @@
 .anchor{
     color: inherit;
     font: inherit;
-    min-width: 100%;
     min-height: 100%;
     width: 100%;
     font-size: var(--base-text-size);
@@ -25,4 +24,18 @@
 
 .project_image{
     max-width: 80%;
+}
+
+@media (min-width:1000px){
+    
+    .project_image{
+        max-width: 60%;
+    }
+
+    .anchor{
+        min-width: 40%;
+        min-height: 40%;
+        width: 50%;
+        display: inline-flex;
+    }
 }

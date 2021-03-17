@@ -9,14 +9,14 @@ function ContactSection({phoneNumber}) {
                         Grab a hold of us and get your quote right now!                        
                     </span>
                     <span className={pfStyles.description}>
-                        Your project is our priority, <Link href='/contact'>so toss us an email by clicking here</Link>, or hop into a call with us right now!
+                        Your project is our priority, <a href='mailto:shaquil@conjuration.net'>so toss us an email by clicking here</a>, or you can email <strong>shaquil@conjuration</strong>.net, or hop into a call with us right now!
                     </span>
                     <button className={pfStyles.contact_button}>
                         Call {phoneNumber}
                     </button>
-                    <button className={pfStyles.contact_button}>
-                        Send Us An Email
-                    </button>
+                    <a href='mailto:shaquil@conjuration.net' className={pfStyles.email_link}>
+                        Send Us An Email (shaquil@conjuration.net)
+                    </a>
             </section>
         </div>
     )
