@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Gidole';
+  src: url('../fonts/gidole/gidole.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gidole/gidole.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gidole/gidole.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gidole/gidole.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gidole/gidole.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gidole/gidole.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+}
+
+:root{
+  --base-text-size: 28px;
+}
+
