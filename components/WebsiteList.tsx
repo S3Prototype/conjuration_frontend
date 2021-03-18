@@ -1,9 +1,9 @@
-import FeaturedProject from './FeaturedProject.tsx'
+import FeaturedProject from './FeaturedProject'
 import listStyles from '../styles/PortfolioList.module.css'
 function WebsiteList() {
     return (        
         <section id="website_portfolio" className={listStyles.portfolio_section}>
-                <span className={listStyles.item_name}><strong>Featured</strong> Websites</span>
+                <span className={listStyles.item_name}>Featured <strong>Websites</strong></span>
                 <FeaturedProject
                     projectName="BenjaminAugust.net"
                     image="https://res.cloudinary.com/diujqlncs/image/upload/v1616002363/conjuration_frontent/benjaminaugust_gvhavd.png"

@@ -1,4 +1,4 @@
-import FeaturedProject from './FeaturedProject.tsx'
+import FeaturedProject from './FeaturedProject'
 import listStyles from '../styles/PortfolioList.module.css'
 
 function WebAppList() {
