@@ -6,12 +6,10 @@ function FeaturedProject({
     url
 }) {
     return (
-        // <div className={projStyles.project_container}>
-            <a href={url} className={projStyles.anchor}>
-                <span className={projStyles.project_name}>{projectName}</span>
-                <img className={projStyles.project_image} src={image} />
-            </a>
-        // </div>
+        <a href={url} className={projStyles.anchor}>
+            <span className={projStyles.project_name}>{projectName}</span>
+            <img className={projStyles.project_image} src={image} />
+        </a>
     )
 }
 

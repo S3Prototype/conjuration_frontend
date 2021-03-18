@@ -3,7 +3,7 @@ import listStyles from '../styles/PortfolioList.module.css'
 
 function WebAppList() {
     return (
-        <section className={listStyles.portfolio_section}>
+        <section id="web_app_portfolio" className={listStyles.portfolio_section}>
                 <span className={listStyles.item_name}><strong>Featured</strong> Web Apps</span>
                 <FeaturedProject
                     projectName="Buddy Viewer"

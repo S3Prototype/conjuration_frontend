@@ -1,12 +1,14 @@
 import pfStyles from "../styles/PortfolioSection.module.css"
 import Link from 'next/link'
+import CallButton from "./CallButton"
 function PortfolioSection({
     description,
     portfolioType,
     phoneNumber,
     image
 }) {
-    const portfolioRoute: string = portfolioType.replace(/\s/g, '_')+"portfolio"
+    const portfolioRoute: string = portfolioType.replace(/\s/g, '_')+"_portfolio"
+    console.log(portfolioRoute)
     return(
         <div className="section_container">
             <section className={pfStyles.portfolio_section}>
@@ -17,9 +19,7 @@ function PortfolioSection({
                     {description}
                 </span>
                 <form className={pfStyles.phone_number} action={`tel:${phoneNumber}`}>
-                    <button className={pfStyles.contact_button}>
-                        Call Now! {phoneNumber}
-                    </button>                    
+                    <CallButton phoneNumber={phoneNumber} className={pfStyles.contact_button}/>                   
                 </form>
                 <img src={image}
                 className={pfStyles.preview_image}

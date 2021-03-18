@@ -2,7 +2,7 @@ import FeaturedProject from './FeaturedProject.tsx'
 import listStyles from '../styles/PortfolioList.module.css'
 function WebsiteList() {
     return (        
-        <section className={listStyles.portfolio_section}>
+        <section id="website_portfolio" className={listStyles.portfolio_section}>
                 <span className={listStyles.item_name}><strong>Featured</strong> Websites</span>
                 <FeaturedProject
                     projectName="BenjaminAugust.net"
