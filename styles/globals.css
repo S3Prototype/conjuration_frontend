@@ -13,7 +13,7 @@
   box-sizing: border-box;
   margin: 0;
   max-width: 100%;
-  font-family: 'Gidole', Georgia, 'Times New Roman', Times, serif; 
+  font-family: 'Gidole', Helvetica, Arial, sans-serif; 
 }
 
 :root{
@@ -67,8 +67,6 @@ div.section_container:nth-child(odd){
 .link{
   color: inherit;
 }
-
-
 
 @media (min-width:1000px){
     
