@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import LandingSection from '../components/LandingSection'
-import PortfolioSection from '../components/PortfolioSection.tsx'
+import PortfolioSection from '../components/PortfolioSection'
 import ContactSection from '../components/ContactSection'
 export default function Home() {
   return (

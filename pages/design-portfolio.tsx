@@ -1,6 +1,6 @@
 import ContactSection from '../components/ContactSection'
-import WebAppList from '../components/WebAppList.tsx'
-import WebsiteList from '../components/WebsiteList.tsx'
+import WebAppList from '../components/WebAppList'
+import WebsiteList from '../components/WebsiteList'
 
 function DesignPortfolio() {
     return (
