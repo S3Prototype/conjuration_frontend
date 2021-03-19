@@ -1,15 +1,8 @@
 import landingStyles from '../styles/LandingSection.module.css'
-import cx from 'classnames'
-import CallButton from '../components/CallButton.tsx'
+// import cx from 'classnames'
+import CallButton from '../components/CallButton'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
-
-const landingClasses = [
-    landingStyles.full_section,
-    landingStyles.bg
-]
-
-
 
 function goToContactForm(e){
     e.preventDefault()
@@ -23,7 +16,7 @@ function LandingSection() {
     }
 
     return (
-        <section className={cx(landingStyles.full_section, landingStyles.bg)}>
+        <section className={`${landingStyles.full_section} ${landingStyles.bg}`}>
             <div className={landingStyles.info_container}>
                 <span className={landingStyles.headline}>
                     Make your web presence Elite.

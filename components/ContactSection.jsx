@@ -15,7 +15,7 @@ function ContactSection({phoneNumber}) {
                     <button className={pfStyles.contact_button}>
                         Call {phoneNumber}
                     </button>
-                    <a className="link" href='"https://us1.list-manage.com/contact-form?u=2b4ce3a6f45c89e5c5c8ad199&form_id=73c61acbfff7a1868b693613e29e2e12"' className={pfStyles.email_link}>
+                    <a className="link" href='https://us1.list-manage.com/contact-form?u=2b4ce3a6f45c89e5c5c8ad199&form_id=73c61acbfff7a1868b693613e29e2e12' className={pfStyles.email_link}>
                         Send Us An Email (shaquil@conjuration.net)
                     </a>
 
