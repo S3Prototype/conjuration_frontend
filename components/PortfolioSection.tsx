@@ -8,7 +8,6 @@ function PortfolioSection({
     image
 }) {
     const portfolioRoute: string = portfolioType.replace(/\s/g, '_')+"_portfolio"
-    console.log(portfolioRoute)
     return(
         <div className="section_container">
             <section className={pfStyles.portfolio_section}>

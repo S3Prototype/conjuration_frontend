@@ -11,6 +11,7 @@
 
 .bg{
     background: url('https://res.cloudinary.com/diujqlncs/image/upload/v1615940235/conjuration_frontent/landing_section_bg_t9xh4k.jpg') no-repeat center center ; 
+    background: url('../images/landing_section_bg.jpg') no-repeat center center ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
