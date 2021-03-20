@@ -5,8 +5,8 @@ import WebsiteList from '../components/WebsiteList'
 function DesignPortfolio() {
     return (
         <main>            
-            <WebAppList />
             <WebsiteList />
+            <WebAppList />
             <ContactSection phoneNumber="973-914-7775" />
         </main>
     )
