@@ -16,6 +16,12 @@ function WebAppList() {
                     image="https://res.cloudinary.com/diujqlncs/image/upload/v1615989603/conjuration_frontent/desktop1_yr0mmw.jpg"
                     url="https://necronomisearch.com"
                 />
+
+                <FeaturedProject
+                    projectName="OnePush"
+                    image="https://res.cloudinary.com/diujqlncs/image/upload/v1617632591/conjuration_frontent/onepush_yvjw2n.png"
+                    url="https://onepush.blog"
+                />
         </section>
     )
 }
