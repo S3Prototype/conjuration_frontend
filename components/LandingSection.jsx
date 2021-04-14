@@ -28,7 +28,7 @@ function LandingSection() {
                     </span>
                 </div>
                 <div className={landingStyles.contact_buttons}>
-                    <CallButton className={landingStyles.contact_button} phoneNumber="973-914-7775"/>
+                    <CallButton className={landingStyles.contact_button} phoneNumber="‪973-310-2667‬"/>
                     <button onClick={goToContactForm} className={landingStyles.contact_button}>Get A Quote</button>
                 </div>                    
                 <span className={landingStyles.headline}>See Our Services</span>

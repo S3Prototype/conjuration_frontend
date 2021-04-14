@@ -27,7 +27,7 @@ function ContactSection({phoneNumber}) {
                         Paterson, New Jersey,<br />
                         07522<br />
                         CONTACT US:<br />
-                        973-914-7775<br />
+                        973-310-2667‬<br />
                     </span>
             </section>
         </div>

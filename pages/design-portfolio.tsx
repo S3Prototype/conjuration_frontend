@@ -7,7 +7,7 @@ function DesignPortfolio() {
         <main>            
             <WebsiteList />
             <WebAppList />
-            <ContactSection phoneNumber="973-914-7775" />
+            <ContactSection phoneNumber="973-310-2667‬" />
         </main>
     )
 }
