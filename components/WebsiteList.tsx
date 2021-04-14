@@ -7,7 +7,7 @@ function WebsiteList() {
                 <FeaturedProject
                     projectName="Avner Roth Accounting"
                     image="https://res.cloudinary.com/diujqlncs/image/upload/v1618245510/conjuration_frontent/avner_khqgz2.png"
-                    url="https://priceless-ardinghelli-cccf95.netlify.app/"
+                    url="https://avnerroth.com"
                 />
 
                 <FeaturedProject
